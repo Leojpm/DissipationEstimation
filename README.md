@@ -11,13 +11,13 @@ vertical and horizontal gradients i.e. if your temperature field is an
 (n,m) matrix, your dissipation prediction will be an (n-1,m-1) matrix.
 
 Inputs:
--S : Absolute Salinity on a pressure-time grid, both time and pressure
+- S : Absolute Salinity on a pressure-time grid, both time and pressure
 spacing may vary.
--T : Conservative Temperature on a pressure-time grid
--p : Pressure (dbar)
--lat : Latitude
--lon : Longitude
--kscale : The exponent for the power spectrum of spice. In Middleton et
+- T : Conservative Temperature on a pressure-time grid
+- p : Pressure (dbar)
+- lat : Latitude
+- lon : Longitude
+- kscale : The exponent for the power spectrum of spice. In Middleton et
 al. (2021) we used k^(-1) (i.e. kscale = -1), following observations from Mackinnon et al.
 (2016) and others. In Fine et al. (2022), we also used k^(-2), as k^(-1)
 overestimated observed dissipation rates.
